@@ -72,6 +72,10 @@
       justify-content: center;
       font-size: 48px;
     }
+    #audioPlayer::-webkit-media-controls {
+      display:none !important;
+    }
+    
   </style>
 </head>
 
@@ -85,6 +89,7 @@
   </div>
   <button id="start" type="button" class="btn btn-outline-dark">Start</button>
   <button id="reset" type="button" class="btn btn-outline-dark">Reset</button>
+  <audio id="audioPlayer" src="./alarm_shorts.m4a" controls="false"></audio>
   <script>
 
     const FULL_DASH_ARRAY = 283;
@@ -152,6 +157,7 @@
 
     function onTimesUp() {
       clearInterval(timerInterval);
+      soundOfTimerEnds();
       TIME_LIMIT = 0;
       timeLeft = 0;
     }
@@ -222,6 +228,11 @@
       document
         .getElementById("base-timer-path-remaining")
         .setAttribute("stroke-dasharray", circleDasharray);
+    }
+
+    function soundOfTimerEnds(){
+      var audioPlayer = document.getElementById("audioPlayer");
+      audioPlayer.play();
     }
   </script>
 </body>
