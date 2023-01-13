@@ -182,6 +182,7 @@
       timerInterval = setInterval(() => {
         if (timeLeft <=0){
           onTimesUp();
+          alert("Please enter positive number");
           return
         }
         timePassed = timePassed += 1;
