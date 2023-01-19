@@ -1,12 +1,18 @@
 {
-    "theme_color": "#e6e6e6",
-    "background_color": "#c9c8c8",
-    "display": "browser",
-    "scope": "/",
-    "start_url": "/",
+    "background_color": "#ffffff",
+    "description": "Visual Time Timer",
+    "dir": "ltr",
+    "display": "fullscreen",
     "name": "TimeTimer",
+    "orientation": "any",
+    "scope": "/",
     "short_name": "TimeTimer",
-    "description": "TimeTimer",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "categories": [
+        "business",
+        "productivity"
+    ],
     "icons": [
         {
             "src": "/icon-192x192.png",
@@ -28,5 +34,10 @@
             "sizes": "512x512",
             "type": "image/png"
         }
+    ],
+    "shortcuts": [],
+    "lang": "en",
+    "display_override": [
+        "fullscreen"
     ]
 }
