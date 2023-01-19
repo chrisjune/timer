@@ -1,0 +1,44 @@
+{
+  "short_name": "Time timer",
+  "name": "Visual Time Timer",
+  "icons": [
+    {
+      "src": "images/alarm.ico",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/alarm.ico",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/alarm.ico",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/alarm.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/alarm.ico",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "images/alarm.ico",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "images/alarm.ico",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#ffd31d",
+  "background_color": "#333",
+  "display": "standalone"
+}
