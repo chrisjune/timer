@@ -69,15 +69,25 @@
 }
 
 .snowflake {
-    width: 8px;
+    /* width: 8px;
     height: 8px;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
-    animation: fall 10s linear;
+    animation: fall 10s linear; */
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: black;
 }
 
 @keyframes fall {
     from {
+        transform: translateY(-100px);
     }
 
     to {

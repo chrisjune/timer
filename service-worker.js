@@ -3,7 +3,8 @@ const urlsToCache = [
   '/',
   '/index.css',
   '/index.js',
-  '/alarm.ico'
+  '/alarm.ico',
+  '/alarm.m4a',
 ];
 
 self.addEventListener('install', function(event) {
